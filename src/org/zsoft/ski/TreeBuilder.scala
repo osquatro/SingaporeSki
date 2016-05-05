@@ -6,11 +6,6 @@ import scala.io.Source
 /**
   * Created by Denys on 19/4/16.
   *
-
-
-
-
-/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/bin/java -cp /Users/Denys/Documents/CLIENT/lib/castor-0.9.7.jar:/Users/Denys/Documents/CLIENT/lib/commons-codec-1.3.jar:/Users/Denys/Documents/CLIENT/lib/commons-httpclient-3.0-rc3.jar:/Users/Denys/Documents/CLIENT/lib/commons-lang.jar:/Users/Denys/Documents/CLIENT/lib/commons-logging.jar:/Users/Denys/Documents/CLIENT/lib/cryptix-jce-api.jar:/Users/Denys/Documents/CLIENT/lib/cryptix-jce-provider.jar:/Users/Denys/Documents/CLIENT/lib/cryptix-message-api.jar:/Users/Denys/Documents/CLIENT/lib/cryptix-openpgp-provider.jar:/Users/Denys/Documents/CLIENT/lib/cryptix-pki-api.jar:/Users/Denys/Documents/CLIENT/lib/dom4j.jar:/Users/Denys/Documents/CLIENT/lib/log4j-1.2.9.jar:/Users/Denys/Documents/CLIENT/lib/umapi_v1.5.jar:/Users/Denys/Documents/CLIENT/lib/xerces.jar com.wiz.enets2.transaction.util.PGPGeneratorApp
   */
 class MatrixEntry(val value: Int, var used: Boolean = false)
 
