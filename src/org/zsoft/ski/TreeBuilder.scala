@@ -25,9 +25,9 @@ class TreeBuilder(val fileName: String) {
 
   def buildTree: Tree = {
 
-    var maxTree: Tree = ???
+    var maxTree: Tree = buildTree(0, 0)
 
-    for (x <- 0 to xDimension - 1;
+    for (x <- 1 to xDimension - 1;
          y <- 0 to yDimension - 1;
          if (!matrix(x)(y).used);
          localTree: Tree = buildTree(x, y)) {
